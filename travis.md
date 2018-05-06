@@ -8,15 +8,15 @@ Start from the [opam installer](https://github.com/thery/coqprime/blob/master/op
 //github.com/thery/coqprime/blob/master/opam/opam)
 
 
-##1. Sign in into [travis](https://travis-ci.org/) 
+1. Sign in into [travis](https://travis-ci.org/) 
 
-##2. Enable [Coqprime](https://github.com/thery/coqprime) 
+2. Enable [Coqprime](https://github.com/thery/coqprime) 
 
 ![Enable](./travis_coqprime.png)
 
-##3. Create a [.travis.yml](https://github.com/thery/coqprime/blob/master/.travis.yml) file.
+3. Create a [.travis.yml](https://github.com/thery/coqprime/blob/master/.travis.yml) file.
 
-##4. Set up a cache:
+4. Set up a cache:
 
 ````
 cache:
@@ -25,7 +25,7 @@ cache:
   - $HOME/.opam
 ````
 
-##5. Make opam available
+5. Make opam available
 
 ````
 addons:
@@ -38,7 +38,7 @@ addons:
     - gcc-multilib
 ````
 
-##6. Translate opam dependency
+6. Translate opam dependency
 
 ```
 depends: [
@@ -60,7 +60,7 @@ install:
 ````
 
 
-##7. Translate opam build
+7. Translate opam build
 
 ````
 build: [
