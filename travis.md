@@ -2,7 +2,7 @@
 
 What has been done to get [travis](https://travis-ci.org/)
 checking the Coq libray  [Coqprime](https://github.com/thery/coqprime) 
-starting from the[opam installer](https://github.com/thery/coqprime/blob/master/opam/opam)
+starting from the [opam installer](https://github.com/thery/coqprime/blob/master/opam/opam)
 
 
 
